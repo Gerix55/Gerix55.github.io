@@ -86,3 +86,10 @@ img{
     width: 200px;
     height: 250px;
 }
+h2{
+    color: blue;
+}
+tr{
+    background-color: green;
+    color: silver;
+}

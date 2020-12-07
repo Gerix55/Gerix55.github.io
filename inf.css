@@ -1,0 +1,21 @@
+body{
+    padding: 15px;
+    width: 80%;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.cim2{
+    display: flex;
+    align-self: center;
+}
+.szoveg2{
+    align-self: left;
+}
+img{
+    margin: auto;
+    width: 40%;
+    height: 40%;
+}
