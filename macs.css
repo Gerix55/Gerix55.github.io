@@ -1,97 +1,88 @@
 body{
     font-size: 130%;
+    background-image: url(img/background.jpg);
 }
 .grid-container{
+    background-color: rgba(255, 251, 0, 0.7);
     display: grid;
     grid-gap: 10px;
     justify-items: left;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+td, th{
+    border: 5px solid black;
 }
 .oszloptető{
     font-weight: bold;
 }
 .cim{
     justify-self:center ;
-    grid-row: 1;
-    grid-column: 1;
-}
-.bevezeto{
     grid-row: 2;
     grid-column: 1;
 }
+.bevezeto{
+    justify-self: center;
+    grid-row: 3;
+    grid-column: 1;
+}
+
 .pont1{
-    grid-row: 3;
-    grid-column: 1;
-}
-.kep{
-    
-    grid-row: 3;
-    grid-column: 2;
-}
-.cselekmeny{
     grid-row: 4;
     grid-column: 1;
 }
-.ok{
+
+.kep1{
     grid-row: 4;
     grid-column: 2;
 }
-.farok1{
+.tabla{
     grid-row: 5;
     grid-column: 1;
 }
-.farok1ok{
+.kep2{
     grid-row: 5;
-    grid-column: 2;
-}
-.farok2{
-    grid-row: 6;
-    grid-column: 1;
-}
-.farok2ok{
-    grid-row: 6;
-    grid-column: 2;
-}
-.farok3{
-    grid-row: 7;
-    grid-column: 1;
-}
-.farok3ok{
-    grid-row: 7;
-    grid-column: 2;
-}
-.farok4{
-    grid-row: 8;
-    grid-column: 1;
-}
-.farok4ok{
-    grid-row: 8;
-    grid-column: 2;
-}
-.farok5{
-    grid-row: 9;
-    grid-column: 1;
-}
-.farok5ok{
-    grid-row: 9;
     grid-column: 2;
 }
 .pont2{
-    grid-row: 10;
+    grid-row: 6;
     grid-column: 1;
+}
+.kep3{
+    grid-row: 6;
+    grid-column: 2;
 }
 .pont3{
-    grid-row: 11;
+    grid-row: 7;
     grid-column: 1;
 }
+.kep4{
+    grid-row: 7;
+    grid-column: 2;
+}
 .forrasok{
-    grid-row: 12;
+    grid-row: 8;
     grid-column: 1;
 }
 .kepforrasok{
-    grid-row: 12;
+    grid-row: 8;
     grid-column: 2;
 }
-#farok{
-    width: 20%;
-    height: 20%;
+#ijedt{
+    width: 150px;
+    height: 200px;
+}
+.nav{
+    grid-row: 1;
+    grid-column: 1;
+}
+img{
+    width: 50%;
+    height: 50%;
+}
+#tail{
+    width: 200px;
+    height: 250px;
 }
